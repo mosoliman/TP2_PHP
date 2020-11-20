@@ -1,0 +1,46 @@
+2020-11-18 02:39:54 Notice: Deprecated (16384): ServerRequest::session() is deprecated. Use getSession() instead. The setter part will be removed. - C:\Program Files\Ampps\www\TP1_Mohammad-Soliman\src\Controller\AppController.php, line: 44
+ You can disable deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED` in your config/app.php. in [C:\Program Files\Ampps\www\TP1_Mohammad-Soliman\vendor\cakephp\cakephp\src\Core\functions.php, line 311]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 168
+deprecationWarning - CORE\src\Core\functions.php, line 311
+Cake\Http\ServerRequest::session() - CORE\src\Http\ServerRequest.php, line 588
+App\Controller\AppController::initialize() - APP/Controller\AppController.php, line 44
+Cake\Controller\Controller::__construct() - CORE\src\Controller\Controller.php, line 270
+Bake\Shell\Task\TestTask::buildTestSubject() - ROOT\vendor\cakephp\bake\src\Shell\Task\TestTask.php, line 330
+Bake\Shell\Task\TestTask::bake() - ROOT\vendor\cakephp\bake\src\Shell\Task\TestTask.php, line 237
+Bake\Shell\Task\ControllerTask::bakeTest() - ROOT\vendor\cakephp\bake\src\Shell\Task\ControllerTask.php, line 213
+Bake\Shell\Task\ControllerTask::bake() - ROOT\vendor\cakephp\bake\src\Shell\Task\ControllerTask.php, line 162
+Bake\Shell\Task\ControllerTask::main() - ROOT\vendor\cakephp\bake\src\Shell\Task\ControllerTask.php, line 69
+Bake\Shell\BakeShell::Bake\Shell\{closure}() - ROOT\vendor\cakephp\bake\src\Shell\BakeShell.php, line 282
+Cake\Collection\Collection::each() - CORE\src\Collection\CollectionTrait.php, line 64
+Bake\Shell\BakeShell::all() - ROOT\vendor\cakephp\bake\src\Shell\BakeShell.php, line 283
+Cake\Console\Shell::runCommand() - CORE\src\Console\Shell.php, line 517
+Cake\Console\CommandRunner::runShell() - CORE\src\Console\CommandRunner.php, line 384
+Cake\Console\CommandRunner::run() - CORE\src\Console\CommandRunner.php, line 162
+[main] - ROOT\bin\cake.php, line 12
+
+
+
+2020-11-18 02:40:01 Notice: Deprecated (16384): ServerRequest::session() is deprecated. Use getSession() instead. The setter part will be removed. - C:\Program Files\Ampps\www\TP1_Mohammad-Soliman\src\Controller\AppController.php, line: 44
+ You can disable deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED` in your config/app.php. in [C:\Program Files\Ampps\www\TP1_Mohammad-Soliman\vendor\cakephp\cakephp\src\Core\functions.php, line 311]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 168
+deprecationWarning - CORE\src\Core\functions.php, line 311
+Cake\Http\ServerRequest::session() - CORE\src\Http\ServerRequest.php, line 588
+App\Controller\AppController::initialize() - APP/Controller\AppController.php, line 44
+Cake\Controller\Controller::__construct() - CORE\src\Controller\Controller.php, line 270
+Bake\Shell\Task\TestTask::buildTestSubject() - ROOT\vendor\cakephp\bake\src\Shell\Task\TestTask.php, line 330
+Bake\Shell\Task\TestTask::bake() - ROOT\vendor\cakephp\bake\src\Shell\Task\TestTask.php, line 237
+Bake\Shell\Task\ControllerTask::bakeTest() - ROOT\vendor\cakephp\bake\src\Shell\Task\ControllerTask.php, line 213
+Bake\Shell\Task\ControllerTask::bake() - ROOT\vendor\cakephp\bake\src\Shell\Task\ControllerTask.php, line 162
+Bake\Shell\Task\ControllerTask::main() - ROOT\vendor\cakephp\bake\src\Shell\Task\ControllerTask.php, line 69
+Bake\Shell\BakeShell::Bake\Shell\{closure}() - ROOT\vendor\cakephp\bake\src\Shell\BakeShell.php, line 282
+Cake\Collection\Collection::each() - CORE\src\Collection\CollectionTrait.php, line 64
+Bake\Shell\BakeShell::all() - ROOT\vendor\cakephp\bake\src\Shell\BakeShell.php, line 283
+Cake\Console\Shell::runCommand() - CORE\src\Console\Shell.php, line 517
+Cake\Console\CommandRunner::runShell() - CORE\src\Console\CommandRunner.php, line 384
+Cake\Console\CommandRunner::run() - CORE\src\Console\CommandRunner.php, line 162
+[main] - ROOT\bin\cake.php, line 12
+
+
+
